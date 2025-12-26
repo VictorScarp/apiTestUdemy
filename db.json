@@ -7,7 +7,8 @@
         "id": 1,
         "name": "Juan Pérez",
         "email": "juan.perez@email.com",
-        "address": "Calle Falsa 123, Ciudad de México"
+        "address": "Calle Falsa 123, Ciudad de México",
+        "phone": "555-1234-001"
       },
       "products": [
         {
@@ -25,7 +26,9 @@
           "quantity": 2
         }
       ],
-      "total": 13000
+      "total": 13000,
+      "address": "Calle Verdadera 456, Ciudad de México",
+      "phone": "123-123123-123123"
     },
     {
       "id": "1002-2024",
@@ -34,7 +37,8 @@
         "id": 2,
         "name": "María López",
         "email": "maria.lopez@email.com",
-        "address": "Avenida Siempre Viva 456, Guadalajara"
+        "address": "Avenida Siempre Viva 456, Guadalajara",
+        "phone": "555-1234-002"
       },
       "products": [
         {
@@ -57,12 +61,7 @@
     {
       "id": "1003-2024",
       "date": "2024-06-05",
-      "client": {
-        "id": 3,
-        "name": "Carlos Ramírez",
-        "email": "carlos.ramirez@email.com",
-        "address": "Boulevard Reforma 789, Monterrey"
-      },
+      "client": "{\"name\":\"Carlos Ramírez\",\"address\":\"Boulevard Reforma 987, Monterrey\"}",
       "products": [
         {
           "id": 2,
@@ -88,7 +87,8 @@
         "id": 4,
         "name": "Ana García",
         "email": "ana.garcia@email.com",
-        "address": "Calle Principal 321, Puebla"
+        "address": "Calle Principal 321, Puebla",
+        "phone": "555-1234-004"
       },
       "products": [
         {
@@ -115,7 +115,8 @@
         "id": 5,
         "name": "Roberto Silva",
         "email": "roberto.silva@email.com",
-        "address": "Avenida Juárez 654, Tijuana"
+        "address": "Avenida Juárez 654, Tijuana",
+        "phone": "555-1234-005"
       },
       "products": [
         {
@@ -142,7 +143,7 @@
         "id": 6,
         "name": "Laura Martínez",
         "email": "laura.martinez@email.com",
-        "address": "Calle Morelos 987, Mérida"
+        "phone": "555-1234-006"
       },
       "products": [
         {
@@ -160,7 +161,8 @@
           "quantity": 2
         }
       ],
-      "total": 5100
+      "total": 5100,
+      "address": "Calle Modelos 987, Mérida"
     },
     {
       "id": "1007-2024",
@@ -169,7 +171,8 @@
         "id": 7,
         "name": "Fernando Torres",
         "email": "fernando.torres@email.com",
-        "address": "Boulevard Constitución 147, León"
+        "address": "Boulevard Constitución 147, León",
+        "phone": "555-1234-007"
       },
       "products": [
         {
@@ -196,7 +199,8 @@
         "id": 8,
         "name": "Patricia Ruiz",
         "email": "patricia.ruiz@email.com",
-        "address": "Avenida Hidalgo 258, Querétaro"
+        "address": "Avenida Hidalgo 258, Querétaro",
+        "phone": "555-1234-008"
       },
       "products": [
         {
@@ -223,7 +227,8 @@
         "id": 9,
         "name": "Miguel Ángel Vargas",
         "email": "miguel.vargas@email.com",
-        "address": "Calle Independencia 369, San Luis Potosí"
+        "address": "Calle Independencia 369, San Luis Potosí",
+        "phone": "555-1234-009"
       },
       "products": [
         {
@@ -250,7 +255,8 @@
         "id": 10,
         "name": "Carmen Herrera",
         "email": "carmen.herrera@email.com",
-        "address": "Avenida Revolución 741, Hermosillo"
+        "address": "Avenida Revolución 741, Hermosillo",
+        "phone": "555-1234-010"
       },
       "products": [
         {
@@ -277,7 +283,8 @@
         "id": 11,
         "name": "Diego Morales",
         "email": "diego.morales@email.com",
-        "address": "Calle Zaragoza 852, Culiacán"
+        "address": "Calle Zaragoza 852, Culiacán",
+        "phone": "555-1234-011"
       },
       "products": [
         {
@@ -304,7 +311,8 @@
         "id": 12,
         "name": "Sofía Mendoza",
         "email": "sofia.mendoza@email.com",
-        "address": "Boulevard Libertad 963, Chihuahua"
+        "address": "Boulevard Libertad 963, Chihuahua",
+        "phone": "555-1234-012"
       },
       "products": [
         {
@@ -331,7 +339,8 @@
         "id": 13,
         "name": "Ricardo Jiménez",
         "email": "ricardo.jimenez@email.com",
-        "address": "Avenida Madero 147, Durango"
+        "address": "Avenida Madero 147, Durango",
+        "phone": "555-1234-013"
       },
       "products": [
         {
@@ -358,7 +367,8 @@
         "id": 14,
         "name": "Elena Castro",
         "email": "elena.castro@email.com",
-        "address": "Calle Guerrero 258, Zacatecas"
+        "address": "Calle Guerrero 258, Zacatecas",
+        "phone": "555-1234-014"
       },
       "products": [
         {
@@ -385,7 +395,8 @@
         "id": 15,
         "name": "Arturo Luna",
         "email": "arturo.luna@email.com",
-        "address": "Avenida Morelos 369, Aguascalientes"
+        "address": "Avenida Morelos 369, Aguascalientes",
+        "phone": "555-1234-015"
       },
       "products": [
         {
@@ -412,7 +423,8 @@
         "id": 16,
         "name": "Verónica Ríos",
         "email": "veronica.rios@email.com",
-        "address": "Calle Allende 741, Colima"
+        "address": "Calle Allende 741, Colima",
+        "phone": "555-1234-016"
       },
       "products": [
         {
@@ -439,7 +451,8 @@
         "id": 17,
         "name": "Héctor Delgado",
         "email": "hector.delgado@email.com",
-        "address": "Boulevard Juárez 852, Nayarit"
+        "address": "Boulevard Juárez 852, Nayarit",
+        "phone": "555-1234-017"
       },
       "products": [
         {
@@ -466,7 +479,8 @@
         "id": 18,
         "name": "Adriana Vega",
         "email": "adriana.vega@email.com",
-        "address": "Avenida Constitución 963, Sinaloa"
+        "address": "Avenida Constitución 963, Sinaloa",
+        "phone": "555-1234-018"
       },
       "products": [
         {
@@ -493,7 +507,8 @@
         "id": 19,
         "name": "Oscar Paredes",
         "email": "oscar.paredes@email.com",
-        "address": "Calle Reforma 147, Sonora"
+        "address": "Calle Reforma 147, Sonora",
+        "phone": "555-1234-019"
       },
       "products": [
         {
@@ -520,7 +535,8 @@
         "id": 20,
         "name": "Isabel Moreno",
         "email": "isabel.moreno@email.com",
-        "address": "Avenida Libertad 258, Baja California"
+        "address": "Avenida Libertad 258, Baja California",
+        "phone": "555-1234-020"
       },
       "products": [
         {
@@ -539,6 +555,218 @@
         }
       ],
       "total": 26200
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Laptop de 15 pulgadas, 8GB RAM, 256GB SSD",
+      "price": 12000,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Mouse inalámbrico",
+      "description": "Mouse ergonómico, conexión Bluetooth",
+      "price": 500,
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "name": "Teclado mecánico",
+      "description": "Teclado con retroiluminación RGB",
+      "price": 1500,
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "name": "Monitor",
+      "description": "Monitor 24 pulgadas Full HD",
+      "price": 3500,
+      "stock": 8
+    },
+    {
+      "id": 5,
+      "name": "Impresora multifuncional",
+      "description": "Impresora, escáner y copiadora WiFi",
+      "price": 2800,
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "name": "Disco duro externo",
+      "description": "Disco duro 1TB USB 3.0",
+      "price": 1200,
+      "stock": 20
+    },
+    {
+      "id": 7,
+      "name": "Memoria USB",
+      "description": "Memoria USB 64GB",
+      "price": 250,
+      "stock": 50
+    },
+    {
+      "id": 8,
+      "name": "Tablet",
+      "description": "Tablet 10 pulgadas, 64GB",
+      "price": 4500,
+      "stock": 7
+    },
+    {
+      "id": 9,
+      "name": "Auriculares Bluetooth",
+      "description": "Auriculares inalámbricos con micrófono",
+      "price": 900,
+      "stock": 30
+    },
+    {
+      "id": 10,
+      "name": "Cargador universal",
+      "description": "Cargador para laptop y dispositivos móviles",
+      "price": 600,
+      "stock": 18
+    },
+    {
+      "id": 11,
+      "name": "Webcam HD",
+      "description": "Cámara web 1080p con micrófono",
+      "price": 800,
+      "stock": 14
+    },
+    {
+      "id": 12,
+      "name": "Silla ergonómica",
+      "description": "Silla de oficina ergonómica ajustable",
+      "price": 3200,
+      "stock": 6
+    },
+    {
+      "id": 13,
+      "name": "Router WiFi",
+      "description": "Router inalámbrico doble banda",
+      "price": 1100,
+      "stock": 10
+    },
+    {
+      "id": 14,
+      "name": "Proyector portátil",
+      "description": "Proyector LED 2000 lúmenes",
+      "price": 3500,
+      "stock": 5
+    },
+    {
+      "id": 15,
+      "name": "Altavoces Bluetooth",
+      "description": "Par de altavoces inalámbricos",
+      "price": 700,
+      "stock": 22
+    },
+    {
+      "id": 16,
+      "name": "Smartwatch",
+      "description": "Reloj inteligente con monitor de actividad",
+      "price": 1800,
+      "stock": 13
+    },
+    {
+      "id": 17,
+      "name": "Cámara de seguridad",
+      "description": "Cámara IP con visión nocturna",
+      "price": 1600,
+      "stock": 9
+    },
+    {
+      "id": 18,
+      "name": "Fuente de poder",
+      "description": "Fuente de poder 600W para PC",
+      "price": 950,
+      "stock": 11
+    },
+    {
+      "id": 19,
+      "name": "Tarjeta gráfica",
+      "description": "Tarjeta gráfica 4GB DDR5",
+      "price": 4200,
+      "stock": 4
+    },
+    {
+      "id": 20,
+      "name": "Memoria RAM",
+      "description": "Memoria RAM 16GB DDR4",
+      "price": 1700,
+      "stock": 16
+    },
+    {
+      "id": 21,
+      "name": "Base para laptop",
+      "description": "Base ajustable con ventilador",
+      "price": 400,
+      "stock": 19
+    },
+    {
+      "id": 22,
+      "name": "Micrófono USB",
+      "description": "Micrófono de condensador para PC",
+      "price": 850,
+      "stock": 8
+    },
+    {
+      "id": 23,
+      "name": "Switch de red",
+      "description": "Switch de 8 puertos Gigabit",
+      "price": 950,
+      "stock": 10
+    },
+    {
+      "id": 24,
+      "name": "Cámara deportiva",
+      "description": "Cámara 4K sumergible",
+      "price": 2100,
+      "stock": 7
+    },
+    {
+      "id": 25,
+      "name": "Soporte para monitor",
+      "description": "Soporte ajustable para monitor",
+      "price": 600,
+      "stock": 14
+    },
+    {
+      "id": 26,
+      "name": "Bocinas de escritorio",
+      "description": "Bocinas estéreo para PC",
+      "price": 350,
+      "stock": 20
+    },
+    {
+      "id": 27,
+      "name": "Cámara réflex digital",
+      "description": "Cámara DSLR 24MP con lente 18-55mm",
+      "price": 12500,
+      "stock": 3
+    },
+    {
+      "id": 28,
+      "name": "Lector de tarjetas",
+      "description": "Lector de tarjetas SD y microSD",
+      "price": 180,
+      "stock": 25
+    },
+    {
+      "id": 29,
+      "name": "Cables HDMI",
+      "description": "Cable HDMI 2 metros",
+      "price": 120,
+      "stock": 40
+    },
+    {
+      "id": 30,
+      "name": "Sistema de sonido",
+      "description": "Sistema 5.1 con subwoofer",
+      "price": 4200,
+      "stock": 5
     }
   ]
 }
